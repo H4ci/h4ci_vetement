@@ -17,10 +17,11 @@ Aperçu : https://streamable.com/zw6f3o
 start h4ci_vetement
 ```
 
-[A Savoir]
+[A SAVOIR]
 
 * Pour modifier les prix de l'achat de la tenue et de la sauvegarde, vous avez deux variables dans votre fichier client : prixvetement et prixsauvegarde
   * Par défaut c'est 150 et 50
+
 
 * Les vêtements en items sont accessible depuis un menu avec la touche `=`
 
