@@ -27,7 +27,6 @@ end)
 ESX.RegisterServerCallback('h4ci_vetement:affichertenu', function(source, cb)
     local xPlayer = ESX.GetPlayerFromId(source)
     local tenue = {}
-    xPlayer.removeMoney(50)
     MySQL.Async.fetchAll('SELECT * FROM h4ci_item WHERE (identifier = @identifier and type = @type)', {
         ['@identifier'] = xPlayer.identifier,
         ['@type'] = "Vetement"
