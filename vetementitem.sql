@@ -31,7 +31,7 @@ CREATE TABLE `h4ci_item` (
   `id` int(11) NOT NULL,
   `identifier` varchar(100) NOT NULL,
   `nom` varchar(100) NOT NULL DEFAULT 'Nom tenue non attribué',
-  `contenu` longtext NOT NULL DEFAULT 'Vide',
+  `contenu` longtext,
   `type` varchar(100) NOT NULL DEFAULT 'Vetement'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
